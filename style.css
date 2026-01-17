@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background: #f5f5f5;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+#ui {
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 0 4px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+.red { background: #e74c3c; }
+.blue { background: #3498db; }
+.yellow { background: #f1c40f; color: #333; }
+
+canvas {
+  background: white;
+  border: 2px solid #333;
+  touch-action: manipulation;
+}
+
+button.active {
+  outline: 3px solid #333;
+  transform: scale(1.1);
+}
+#startBtn {
+  background-color: #2ecc71; /* 明るい緑 */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#startBtn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+#startBtn:active {
+  transform: scale(0.95);
+}
+

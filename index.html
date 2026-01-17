@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>色の鬼 〜色の呼吸〜</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>色タッチ！～色の呼吸修行～</h1>
+
+ <button id="startBtn">修行開始！</button>
+<p id="timer">残り時間：30</p>
+<p id="message"></p>
+
+  <p>スコア：<span id="score">0</span></p>
+
+  <canvas id="game" width="360" height="480"></canvas>
+
+ <div id="ui">
+    <button data-color="red" class="red">赤の呼吸</button>
+    <button data-color="blue" class="blue">青の呼吸</button>
+    <button data-color="yellow" class="yellow">黄の呼吸</button>
+  </div>
+
+
+
+  <script src="game.js"></script>
+
+</body>
+</html>
